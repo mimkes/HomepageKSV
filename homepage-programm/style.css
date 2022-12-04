@@ -1,7 +1,83 @@
-h1{
-    color: green;
+ *{
+    box sizing: border-box;
+    font-family: ;
+ }
+ html, body{
+    margin: 0;
+    padding: 0;
+    size: cover;
+} 
+
+.Logo-oben{
+    height: 30px;
+    width: 30px;
 }
 
-.Liste{
-    margin: 50px;
+.Banner-main {
+ 
+  width: max-content;
+  margin: 0; 
+  padding: 0;
+  max-width: 1280px;
+}
+
+.nav ul{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: red;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255,255,255,.4);
+
+}
+
+.main-nav{
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: lighter;
+    /* border-bottom: 1px solid rgba(0,0,0,.7) */
+}
+.letztes-nav a{
+    padding-right: 3em;
+}
+.main-nav li {
+    padding:0 .5%;
+}
+
+.icon a{
+    color: transparent;
+    text-align: left;
+    margin-right: 10em;
+    background:  url('images/LOGO-replacement.png') no-repeat;
+    background-position: 7px center;
+    background-size: contain;
+
+}
+
+
+
+
+
+
+
+
+.content-section {
+    margin:1em;
+}
+
+.container {
+    max-width: 900px;
 }
