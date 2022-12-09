@@ -39,7 +39,7 @@
     text-decoration: none;
 }
 
-.nav a:hover{
+.main-nav a:hover{
     /* background-color: rgba(255,0,0,.4); */
     color: rgb(230,0,0);
 }
@@ -55,15 +55,18 @@
 }
 .main-nav li {
     padding:0 .5%;
+    align-items: center;
 }
 
 .icon a{
     color: transparent;
     text-align: left;
-    margin-right: 10em;
+    margin-right: 9em;
+    padding: .5em;
     background:  url('images/LOGO.jpg') no-repeat;
     background-position: 7px center;
     background-size: contain;
+    
 
 }
 
@@ -71,7 +74,13 @@
     color: rgba(0,0,0,0);
 }
 
-
+/* .Logo {
+    margin:0px;
+    margin-right:9em;
+    padding: 0em;
+    height: 50px;
+    
+} */
 
 
 
@@ -82,4 +91,29 @@
 
 .container {
     max-width: 900px;
+}
+
+
+
+.main-footer{
+    background-color: rgb(200,0,0);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-bottom ul{
+    background-color: rgb(200,0,0);
+    text-align: right;
+    align-items: center;
+}
+
+.nav-bottom a:hover{
+    text-decoration: underline;
 }
