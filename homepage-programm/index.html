@@ -6,33 +6,93 @@
         <meta name="Beschreibung" content="Das ist die Beschreibung">
         <link rel="stylesheet" href="style.css" >
 
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+        <script> 
+            $(function(){
+              $("#header").load("header.html"); 
+            });
+            </script>
+
+            <script> 
+                $(function(){
+                    $("#footer").load("footer.html"); 
+                    });
+                    </script>
+
+
+
+
+
     </head>
     <body>
-        <header class="main-header">
+        <!-- <header class="main-header">
 
             <!-- <a class="Logo-oben" href="index.html">
              <span class="Logo">  <img src="Images/LOGO-replacement.png"> </span> 
             </a> -->
-            <nav class="nav main-nav">
-                <ul>
-                    <!-- <li /*class="icon"*/> <a href="index.html" > <img class="Logo LOGO-oben" src="Images/LOGO.jpg"></a></li> -->
-                    <li class="icon"> <a href="index.html" > KSV</a></li>
-                    <li><a href="index.html">Home </a></li>
-                    <li> <a href="Aktuelles.html">Aktuelles</a></li>
-                    
-                    <li><a href="index.html">Nächste Termine </a></li> <!-- href ändern!> -->
-                    <li><a href="index.html">Unsere Mannschaften </a></li> <!-- href ändern!> -->
-                    
-                    <li><a href="index.html">Mitglieder </a></li> <!-- href ändern!> -->
-                    <li><a href="dwz-liste.html">DWZ-Liste</a></li>
-                    <li><a href="index.html">Archiv </a></li> <!-- href ändern!> -->
-                    <li class="letztes-nav"><a href="index.html">Verschiedenes </a></li> <!-- href ändern!> -->
-
+            <!-- <div class="leiste">
+                <div class="iconbox">
+                    <ul >
+                    <li class="icon"> 
+                        
+                        <a href="index.html" target="self"> <img class=LOGO-Leiste src="Images/LOGO-oben-rechts.jpg"></a>
+                        
+                    </li>
                 </ul>
-        </nav>
-        <img class="Banner-main" src="Images/BANNER-replacement.png">
-    </header>
+                </div>
 
+            <div class="hauptbar">
+            <nav class="nav main-nav">
+                
+                <ul class="navbar">
+                    
+                    <!-- <li /*class="icon"*/> <a href="index.html" > <img class="Logo LOGO-oben" src="Images/LOGO.jpg"></a></li> -->
+                    <!-- <div class="iconbox">
+                    <a class="icon" href="index.html"> KSV</a>
+                    </div> -->
+                    <!-- <div class="iconbox">
+                    <li class="icon"> 
+                        
+                        <a href="index.html" > KSV </a>
+                        
+                    </li>
+                </div> -->
+                    <!-- <li class="normalnav"><a href="index.html">Home </a></li>
+
+                    <li class="normalnav"> <a href="Aktuelles.html">Aktuelles</a></li>
+                    
+                    <li class="normalnav"><a href="naechste-termine.html">Nächste Termine </a></li> <!-- href ändern!> -->
+                    <!-- <li class="normalnav"><a href="index.html">Unsere Mannschaften </a></li> <!-- href ändern!> -->
+                    
+                    <!-- <li class="normalnav"><a href="index.html">Mitglieder </a></li> <!-- href ändern!> -->
+                    <!-- <li class="normalnav"><a href="dwz-liste.html">DWZ-Liste</a></li>
+                    <li class="normalnav"><a href="index.html">Archiv </a> </li> -->
+                    <!-- <li class="normalnav">
+                        <div class="dropdown ">
+                            <button class="dropbtn ">Archiv
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="#">Chronik 2008-2014</a>
+                              <a href="#">Chronik 2015-2021</a>
+                              <a href="#">Frühere Beiträge</a>
+                            </div>
+                          </div>
+                         -->
+                    
+                     <!-- href ändern!> -->    
+ 
+                    <!-- <li class="normalnav"><a href="index.html">Verschiedenes </a></li> <!-- href ändern!> -->
+
+                <!-- </ul>
+        </nav>
+    </div>
+    </div>
+    <img class="Banner-main" src="Images/BANNER-replacement.png">
+    </header> -->
+    <div id="header"></div>
 
 
     <section class="content-section container">
@@ -66,18 +126,12 @@
             Thomas Post: thopopost@gmx.de</p> -->
         <nav class="nav nav-bottom">
         <ul >
-            <li > <a href="index.html" ><strong>Impressum</strong> </a> </li></li>
-            <li><a href="index.html">Datenschutzerklärung</a></li> <!-- href ändern!> -->
-            <li><a href="index.html">Statut</a></li> <!-- href ändern!> -->
-            <li><a href="index.html">Rechtliches</a></li> <!-- href ändern!> -->
-            <li><a href="index.html">Kontakt </a></li> <!-- href ändern!> -->
-            
-            <!-- <li> Datenschutzerklärung</li>
-            <li> Statut</li>
-            <li> Rechtliches</li>
-            <li> Impressum</li>
-            <li> Kontakt</li> -->
-            <li><a href="index.html">Vorstand</a></li> <!-- href ändern!> -->
+            <li class="normalnav"> <a href="index.html" ><strong>Impressum</strong> </a> </li></li>
+            <li class="normalnav"><a href="index.html">Datenschutzerklärung</a></li> <!-- href ändern!> -->
+            <li class="normalnav"><a href="index.html">Statut</a></li> <!-- href ändern!> -->
+            <li class="normalnav"><a href="index.html">Rechtliches</a></li> <!-- href ändern!> -->
+            <li class="normalnav"><a href="index.html">Kontakt </a></li> <!-- href ändern!> -->
+            <li class="normalnav"><a href="index.html">Vorstand</a></li> <!-- href ändern!> -->
         </ul>
     </nav>
     </div>
