@@ -22,6 +22,11 @@
                     });
                     </script>
 
+    <script> 
+        $(function(){
+        $("#sidebar").load("sidebar.html");
+            });
+        </script>
 
 
 
@@ -40,10 +45,11 @@
 
     <section class="content-section container">
     <div class="Hauptteil">
+        <!-- <div class="background-for-main">test </div> -->
         <div class="content">
-            <h2>
+            <h1>
                 Nächste Termine
-            </h2>
+            </h1>
          <p>
             <div class="Termin">
                 <h3>
@@ -57,12 +63,10 @@
                 </p>
             </div>
          </p>
+
         </div>
-        <div class="sidebar">
-            <h2>
-                Neueste Beiträge
-            </h2>   
-        </div>
+        <div id="sidebar"></div>
+        
     </div>
     </section>
 
