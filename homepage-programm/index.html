@@ -21,11 +21,17 @@
                     });
                     </script>
 
-
+    <script> 
+    $(function(){
+    $("#sidebar").load("sidebar.html");
+        });
+    </script>
 
 
 
     </head>
+
+    
     <body>
         <!-- <header class="main-header">
 
@@ -96,45 +102,38 @@
 
 
     <section class="content-section container">
+        <div class="Hauptteil">
+            <!-- <div class="background-for-main">test </div> -->
+        <div class="content">
+
         <h2>
-            Kinder- und Jugendschachverein Rochade Göttingen e.V.
+        Herzlich Willkomen auf der Webseite des <br> KSV Rochade Göttingen!
         </h2>
         <!-- <img src="Images/BANNER-replacement.png"> -->
         <p>
-            Auch Erwachsene sind herzlich willkommen! matthias-wahls.co
-            Trainingszeiten von Mo-Do. von 15.30 Uhr bis 17.30 Uhr in Raum 31 im Hainberggymnasium, 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>Friedländer Weg.
+            <img src="Images/Home-foto.jpg"> <br>
+            <div class="Training">
+                <h3>
+                    Trainingszeiten:
+                </h3>
+
+                <p>
+                    Montag: 15:30 Uhr bis 17:30 Uhr <br>
+                    Dienstag: 15:30 Uhr bis 17:30 Uhr <br>
+                    Mittwoch: 15:30 Uhr bis 17:30 Uhr <br>
+                    Donnerstag: 15:30 Uhr bis 17:30 Uhr <br>
+                    im Raum 31 im Hainberggymnasium, 
+            Friedländer Weg 19
+                </p>
+            </div>
         </p>
+        </div>
+
+        <div id="sidebar"></div> 
+        </div>
+           
     </section>
-    <footer class="main-footer">
-        <div class="main-footer-container">
-        <!-- <h3>
-            Impressum
-            
-        </h3> -->
-        <!-- <p>Vereinsregister: NZS VR 201546
-            <br>
-            Registergericht: Amtsgericht Braunschweig
-            <br>
-            Steuer-Nr.: 20/206/24685
-            <br>
-            Finanzamt: Göttingen
-            <br>
-            inhaltlich Verantwortlicher gemäß § 6 MDStV: 1.Vorsitzender
-            <br>
-            Thomas Post: thopopost@gmx.de</p> -->
-        <nav class="nav nav-bottom">
-        <ul >
-            <li class="normalnav"> <a href="index.html" ><strong>Impressum</strong> </a> </li></li>
-            <li class="normalnav"><a href="index.html">Datenschutzerklärung</a></li> <!-- href ändern!> -->
-            <li class="normalnav"><a href="index.html">Statut</a></li> <!-- href ändern!> -->
-            <li class="normalnav"><a href="index.html">Rechtliches</a></li> <!-- href ändern!> -->
-            <li class="normalnav"><a href="index.html">Kontakt </a></li> <!-- href ändern!> -->
-            <li class="normalnav"><a href="index.html">Vorstand</a></li> <!-- href ändern!> -->
-        </ul>
-    </nav>
-    </div>
-    </footer>
+
+    <div id="footer"></div>
     </body>
 </html>

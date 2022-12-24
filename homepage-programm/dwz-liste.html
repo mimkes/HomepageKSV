@@ -2,61 +2,78 @@
 <html>
     <head>
         <title>DWZ-Liste</title>
+        <link rel="SHORTCUT ICON" href="Images/LOGO.jpg" type="image/x-icon">
+        <meta name="Beschreibung" content="Das ist die Beschreibung">
         <link rel="stylesheet" href="style.css" >
+
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+        <script> 
+            $(function(){
+              $("#header").load("header.html"); 
+            });
+            </script>
+
+            <script> 
+                $(function(){
+                    $("#footer").load("footer.html"); 
+                    });
+                    </script>
+
+    <script> 
+    $(function(){
+    $("#sidebar").load("sidebar.html");
+        });
+    </script>
+
+<!-- <script> 
+    $(function(){
+    $("#dwz-liste").load("https://www.schachbund.de/verein/70250.html");
+        });
+    </script> -->
+
+
     </head>
+
+
+
+
+
+
+
+
     <body>
         <header>
-            <h1>
-                KSV Rochade Göttingen (Veltheim)
-            </h1>
-            <hr>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home </a></li>
-                    <li> <a href="Aktuelles.html">Aktuelles</a></li>
-                    <li><a href="dwz-liste.html">DWZ-Liste</a></li>
-                </ul>
-        </nav>
+            <div id="header"></div>
     </header>
+
+
     <section>
-        <h2>
-            DWZ Rangliste KSV Rochade Göttingen
-        </h2>
-        <div class="Liste">
-            <div>
-                <strong>1.</strong>
-                <span> Stotyn, Fabian </span>
-                <span>2160  </span>
-                <hr>
-               </div>
-               <div>
-                <strong>2.</strong>
-                <span> Hartogh, Christian </span>
-                <span>2129  </span>
-                
-               </div>
+        <div class="Hauptteil">
+            <div class="content">
+                <!-- <h2>
+                    DWZ Rangliste KSV Rochade Göttingen
+                </h2> -->
+                <div id="dwz-liste">
+                 <iframe id="dwz-liste-i" src="https://www.schachbund.de/verein/70250.html#dewisTable" scrolling="no"> </iframe>
+                    <!-- <iframe src="https://www.schachbund.de/verein/70250.html/body#top.win.firefox.gecko.fx108.toggler_active.mm-wrapper div#wrapper.mm-page.mm-slideout div#container main#main div.inside div#article-631.mod_article.first.last.block div.container div.row div.col-12 div.mod_dewis_verein.dewis.block div.table_responsiv table#dewisTable.body.tablesorter.tablesorter-default.tablesorter1645a3719eb72" width=100% height=1200px></iframe> -->
+                   <!-- <iframe srcdoc="https://www.schachbund.de/verein/70250.htmlbody#top.win.firefox.gecko.fx108.toggler_active.mm-wrapperdiv#wrapper.mm-page.mm-slideoutdiv#containermain#maindiv.insidediv#article-631.mod_article.first.last.blockdiv.containerdiv.rowdiv.col-12div.mod_dewis_verein.dewis.blockdiv.table_responsivtable#dewisTable.body.tablesorter.tablesorter-default.tablesorter1645a3719eb72" width=100% height=1200px></iframe>  -->
+                  
+                    
+                </div>
+                <p class="Quelle">
+                Quelle: <a href="https://www.schachbund.de/verein/70250.html" target="_blank">https://www.schachbund.de/verein/70250.html</a>
+                </p>
+
+            </div>
+            <div id="sidebar">
+            
         </div>
+        </div>   
     </section>
-    <footer>
-        <h3>
-            Impressum
-        </h3>
-        <p>Vereinsregister: NZS VR 201546
-            <br>
-            Registergericht: Amtsgericht Braunschweig
-            <br>
-            Steuer-Nr.: 20/206/24685
-            <br>
-            Finanzamt: Göttingen
-            <br>
-            inhaltlich Verantwortlicher gemäß § 6 MDStV: 1.Vorsitzender
-            <br>
-            Thomas Post: thopopost@gmx.de</p>
-        <u1>
-            <li> Datenschutzerklärung</li>
-            <li> Statut</li>
-            <li> Rechtliches</li>
-        </u1>
-    </footer>
+
+        <div id="footer"></div>
+
     </body>
 </html>
