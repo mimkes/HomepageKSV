@@ -173,10 +173,11 @@
    align-self: auto;
 
    /* background-blend-mode: lighten; */
-    
+    font-family: Helvetica;
     background-size:cover;
     opacity: 1;
     position: relative;
+    
 
 }
 .background-for-main {
@@ -193,20 +194,41 @@
 }
 
 
-.content {
+.Hauptteil .content {
     padding: 1em;
     margin-left: 2em;
     min-height: 470px;
-    width: 100em;
+    width: 70%;
     color: black;
+    font-family: inherit;
     
     /* -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black; */
 }
+
+.Hauptteil h1 {
+    font-size: 3em; /* Increase the font size to 3em */
+    font-weight: bold; /* Make the font bold */
+    margin: .5em 0;
+    text-transform: uppercase; /* Convert the text to uppercase */
+    font-family: Impact;
+}
+
+.Hauptteil .Termin {
+border-top: 1px;
+border-top: solid;
+}
+
+.Hauptteil .Termin p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #sidebar{
     padding:2em;
     padding-right: 0em;
     margin-right: 1em;
+    width: 30%;
+    font-family: Calibri;
     /* background-image: url("Images/background-2.png");
     background-size:cover; */
 }
@@ -229,7 +251,7 @@
     outline-color: rgb(216, 221, 210);
     outline-width: 1px;
     outline-style: solid;
-   background-color: rgb(255, 250,240);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    border-radius: 5%;
 }
 
@@ -257,4 +279,10 @@
 
 .Weiterlesen:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) { /* Use a media query to adjust the layout for small screens */
+    .Hauptteil .content, .Hauptteil #sidebar {
+        width: 100%; /* Set the width of both elements to 100% for small screens */
+    }
 }
