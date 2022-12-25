@@ -25,7 +25,7 @@
   width: max-content;
   margin: 0; 
   padding: 0;
-  max-width: 1280px;
+  max-width: 100%;
 }
 
 .nav ul{
@@ -370,6 +370,10 @@ th, td {
 
 .Weiterlesen:hover {
     text-decoration: underline;
+}
+
+.Beitrag-neu-hintergrund{
+    width:100%;
 }
 
 @media screen and (max-width: 768px) { /* Use a media query to adjust the layout for small screens */
