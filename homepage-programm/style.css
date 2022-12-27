@@ -9,14 +9,24 @@
     size: cover;
 } 
 
+.container {
+    display: flex;
+    justify-content: center;
+  }
 /* .main-header nav{
     display: flex;
     align-items: center;
 } */
 
+.main-header {
+    display: grid;
+    place-items: center;
+  }
+
 .leiste {
     display: flex;
     align-items: center;
+    width: min-content;
 
 }
 
