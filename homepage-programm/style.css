@@ -386,7 +386,9 @@ th, td {
   }
 
 
-
+.Schulschach-content {
+    max-width: 60%;
+}
 
 
 
