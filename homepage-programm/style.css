@@ -220,7 +220,7 @@
    align-self: auto;
 
    /* background-blend-mode: lighten; */
-    font-family: Helvetica;
+    font-family: Candara;
     background-size:cover;
     opacity: 1;
     position: relative;
@@ -247,7 +247,7 @@
     min-height: 470px;
     width: 70%;
     color: black;
-    font-family: inherit;
+    font-family: Candara;
     
     /* -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black; */
@@ -263,8 +263,8 @@
 
 .Hauptteil h2{
     text-align: center;
-font-size: 2em;
-font-style:italic
+    font-size: 2em;
+    font-family: Candara;
 }
 
 .Hauptteil .content img {
@@ -330,6 +330,21 @@ border-top: solid;
     text-decoration: underline;
 }
 
+.Hauptteil .Mitglied {
+    border-top: 1px;
+    border-top: solid;
+    padding-bottom: 1em;
+}
+
+.Hauptteil .Mitglied p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:lighter;
+}
+
+.Hauptteil .Mitglied p strong {
+    font-weight:100;
+    text-decoration: underline;
+}
 
 /* td {
     padding: 10px;
