@@ -269,10 +269,22 @@ font-style:italic
 
 .Hauptteil .content img {
     text-align: center;
+}
+
+
+.Hauptteil .content .Home-foto {
     padding: 0 3em;
     padding-bottom: 3em;
+}
+
+.Hauptteil .content p .bild-impressum{
+    text-align: center;
+    padding: 2em;
+    padding-left: 30%;
 
 }
+
+
 
 .Hauptteil .content .Training{
     padding-left: 2em;
