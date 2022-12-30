@@ -153,11 +153,11 @@
 .main-footer{
     background-color: rgb(200,0,0);
     color: white;
-    padding: .25em 0;
+    padding: 0.01em 0;
 }
 
 .main-footer-container{
-    padding: 1em;
+    padding: 0.01em;
     display: flex;
     align-items: center;
     text-align: center;
