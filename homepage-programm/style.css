@@ -291,6 +291,14 @@
     border-radius: 2%;
 }
 
+.Hauptteil .content .Artikel-Foto {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 60%;
+    padding-left: 13em;
+}
+
 .Hauptteil .content p .bild-impressum{
     text-align: center;
     padding: 2em;
