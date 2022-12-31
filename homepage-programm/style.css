@@ -278,6 +278,10 @@
     text-align: center;
 }
 
+.Hauptteil .content .new {
+    font-size: 1.03em;
+}
+
 
 .Hauptteil .content .Home-foto {
     margin: 0 3em;
