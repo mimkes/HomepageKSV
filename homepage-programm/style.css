@@ -278,17 +278,25 @@
     text-align: center;
 }
 
-.Hauptteil .content .new {
-    font-size: 1.03em;
-}
 
-.Hauptteil .content .Artikel-Foto {
+.Hauptteil .content .Artikel{
+    font-size: 1.03em;
+    /* border-top: 1px;
+    border-top: solid; */
+    max-width: 1000%;
+
+}
+.Hauptteil .content .Artikel-Foto{
     display: flex;
     justify-content: center;
     align-items: center;
     padding:2em;
-    margin: 1em 5em;
+    margin: 1em 2em;
     
+}
+
+.Hauptteil .content .Artikel-Foto img{
+    border-radius: 2%;
 }
 
 .Hauptteil .content .Home-foto {
