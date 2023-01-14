@@ -343,7 +343,9 @@ border-top: solid;
     font-weight:lighter;
 }
 
-
+.Hauptteil .Termin p strong{
+    font-weight: bold;
+}
 
 .Hauptteil .Mannschaft {
     border-top: 1px;
